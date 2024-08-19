@@ -20,4 +20,4 @@ jobs:
       run: docker build -t prakhar448/pushed-from-github:v1 .
 
     - name: Push the Docker image
-      run: docker push prakhar448/pushed-from-github:latest
+      run: docker push prakhar448/pushed-from-github:v1
